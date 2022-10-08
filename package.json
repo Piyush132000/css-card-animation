@@ -1,0 +1,24 @@
+{
+  "name": "css-search-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piyush132000/css-search-box.git"
+  },
+  "author": "Piyush Agrawal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piyush132000/css-search-box/issues"
+  },
+  "homepage": "https://github.com/Piyush132000/css-search-box#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
