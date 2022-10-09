@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./index.js" ></script>
     <title>Css Learning</title>
   </head>
   <body>
     <div class="container">
-
-      <div class="card">
+      <div class="card-container">
+      <div  onmouseevent="showCard(event)" class="card">
         <div class="card-content">
         <div class="card-content__title">Iron Man</div>
         <div class="card-content__description">
@@ -24,6 +25,44 @@
           <img class="card-image__profile" src="./images/iron-man-artist-image.webp" />
         </div>
       </div>
+    </div>
+
+    <div onmouseenter="showCard(event)" class="card-container">
+      <div class="card">
+        <div class="card-content">
+        <div class="card-content__title">Thor</div>
+        <div class="card-content__description">
+          Iron Man possesses powered armor that gives him superhuman strength and durability, flight, and an array of weapons. The armor is invented and worn by Stark (with occasional short-term exceptions).
+        </div>
+        <div class="card-content__actions">
+          <a class="card-content__actions-tab">Know More</a>
+        </div>
+        </div>
+        <div class="card-image">
+          <img class="card-image__profile" src="./images/thor-smile-1-900x506.jpeg" />
+        </div>
+      </div>
+      </div>
+
+
+      <div class="card-container">
+      <div onmouseenter="showCard(event)" class="card">
+        <div class="card-content">
+        <div class="card-content__title">Spider Man</div>
+        <div class="card-content__description">
+          Iron Man possesses powered armor that gives him superhuman strength and durability, flight, and an array of weapons. The armor is invented and worn by Stark (with occasional short-term exceptions).
+        </div>
+        <div class="card-content__actions">
+          <a class="card-content__actions-tab">Know More</a>
+        </div>
+        </div>
+        <div class="card-image">
+          <img class="card-image__profile" src="./images/spider.webp" />
+        </div>
+      </div>
+      </div>
+
+      
      
     </div>
     
